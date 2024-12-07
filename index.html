@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingi Erlingsson</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0147FF;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo {
+            max-width: 80%;
+            height: auto;
+        }
+
+        .contact {
+            margin-top: 20px;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <img src="ingi_logo.gif" alt="Your Logo" class="logo">
+    <a href="javascript:void(0)" class="contact" 
+       onclick="window.location.href = 'mailto:' + 'ingi' + '@' + 'ingi.co'">
+        Get in Touch
+    </a>
+</body>
+</html>
